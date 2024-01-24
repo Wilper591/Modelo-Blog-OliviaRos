@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Raleway", sans-serif;
+}
+.hero-section {
+  background-image: url(/assets/img/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60rem;
+}
+.card {
+  width: auto;
+  max-width: 18rem;
+}
+.card img {
+  max-width: 100%;
+  height: 13rem;
+}
+.navbar {
+  background-color: #373a3c;
+}
+@media (min-width: 768px) {
+  .card button {
+    color: #17a2b8;
+    border-color: #17a2b8;
+  }
+  .contenedor-hero {
+    margin: 0 0 0 3rem;
+  }
+}
+
